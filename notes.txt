@@ -1,0 +1,18 @@
+Section 14 Notes
+
+You CANNOT connect to a database directly from a react app, this will leave the database vulnerable. 
+Instead you must connect to a backend API which communicates with the database
+
+API: Application Programming Interface
+
+https://academind.com/tutorials/rest-vs-graphql
+REST and GRAPHQL
+
+the Fetch API is used to send and get information from a backend. It is built in to Javascript
+
+Fetch sends a promise which we then need to handle
+
+Fetch doesn't send a real error, Axios sends a real error
+
+if you use response.status you can get the actual response status code
+
